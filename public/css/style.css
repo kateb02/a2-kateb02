@@ -1,1 +1,31 @@
 /*Style your own assignment! This is fun! */
+
+
+/* class selector, flexbox */
+.displayedData{
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* ID selector */
+
+#title{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+#instructions{
+  text-align: center;
+  font-size: 20;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* element selector */
+
+button:hover{
+  background-color: blue;
+}
